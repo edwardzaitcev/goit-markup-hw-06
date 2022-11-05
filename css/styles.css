@@ -703,6 +703,9 @@ img {
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   margin-bottom: 28px;
+  color: rgba(33, 150, 243, 1);
+  font-size: 16px;
+  padding-left: 42px;
 }
 .modal-input-coment {
   width: 100%;
@@ -724,4 +727,13 @@ img {
   height: 120px;
   padding-left: 13px;
   resize: none;
+}
+.input-wrap{
+  position: relative;
+}
+.modal-input-icon{
+  position: absolute;
+  left: 15px;
+  top: 50%;
+  transform:translateY(-50%) ;
 }
