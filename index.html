@@ -487,12 +487,28 @@
           </svg>
         </button>
         <p class="modal-titel">Залиште свої дані, ми вам передзвонимо</p>
-        <form class="madal-form">
-          <span>rjvtyn</span>
-          <input type="text" name="user-name" class="modal-input" />
-          <input type="text" name="user-tel" class="modal-input" />
-          <input type="text" name="user-mail" class="modal-input" />
-          <input type="text" name="user-coment" class="modal-input-coment" />
+        <form class="modal-form">
+          <label>
+            <span class="modal-titel-form">Ім'я</span>
+            <svg></svg>
+            <input type="text" name="user-name" class="modal-input" />
+          </label>
+          <label>
+            <span class="modal-titel-form">Телефон</span>
+            <input type="text" name="user-tel" class="modal-input" />
+          </label>
+          <label>
+            <span class="modal-titel-form">Пошта</span>
+            <input type="text" name="user-mail" class="modal-input" />
+          </label>
+          <span class="modal-titel-form">Коментар</span>
+          <textarea
+            class="modal-textarea"
+            name="coment"
+            rows="5"
+            placeholder="Введіть текст"
+          ></textarea>
+
           <button type="submit">Відправити</button>
         </form>
       </div>

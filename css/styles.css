@@ -711,3 +711,17 @@ img {
   border-radius: 4px;
   margin-bottom: 28px;
 }
+.modal-titel-form {
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: 0.01em;
+
+  color: #757575;
+}
+
+.modal-textarea {
+  width: 100%;
+  height: 120px;
+  padding-left: 13px;
+  resize: none;
+}
