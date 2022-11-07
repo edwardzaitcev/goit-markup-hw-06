@@ -482,10 +482,9 @@
           <h2 class="subscription-list-title">Підпишіться на розсилку</h2>
           <div class="subscription-list-footer">
             <label>
-              <input type="email" name="user-email" placeholder="E-mail" required="" class="mailing-list-mail">
+              <input type="email" name="user-email" placeholder="E-mail" required="" class="subscription-list-mail">
             </label>
-            <button type="submit" class="subscription-list-btn">Підписатися
-              <svg class="subscription-list-icon" width="24" height="24">
+            <button type="submit" class="subscription-list-btn">Підписатися<svg class="subscription-list-icon" width="24" height="24">
                 <use href="./images/icon/icon.svg#icon-send"></use>
               </svg>
             </button>
@@ -504,7 +503,7 @@
         <p class="modal-titel">Залиште свої дані, ми вам передзвонимо</p>
         <form class="modal-form">
           <label class="input-wrap">
-            <span class="modal-titel-form">Ім'я</span>
+            <div class="modal-titel-form">Ім'я</div>
 
             <input type="text" name="user-name" class="modal-input" />
             <svg class="modal-input-icon" width="18" height="18">
@@ -512,7 +511,7 @@
             </svg>
           </label>
           <label class="input-wrap">
-            <span class="modal-titel-form">Телефон</span>
+            <div class="modal-titel-form">Телефон</div>
 
             <input type="text" name="user-tel" class="modal-input" />
             <svg class="modal-input-icon" width="18" height="18">
@@ -520,14 +519,14 @@
             </svg>
           </label>
           <label class="input-wrap">
-            <span class="modal-titel-form">Пошта</span>
+            <div class="modal-titel-form">Пошта</div>
 
             <input type="text" name="user-mail" class="modal-input" />
             <svg class="modal-input-icon" width="18" height="18">
               <use href="./images/icon/icon.svg#icon-email"></use>
             </svg>
           </label>
-          <span class="modal-titel-form">Коментар</span>
+          <div class="modal-titel-form">Коментар</div>
           <textarea
             class="modal-textarea"
             name="coment"
@@ -535,7 +534,7 @@
             placeholder="Введіть текст"
           ></textarea>
 
-          <button type="submit">Відправити</button>
+          <button class="modal-btn" type="submit">Відправити</button>
         </form>
       </div>
     </div>
