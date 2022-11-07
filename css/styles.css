@@ -802,7 +802,7 @@ margin-bottom: 30px;
   .checkbox:checked + .icon-checkbox {
     border-color: #2196F3;
     background-color: #2196F3;
-    background-image: url(../images/icon/icon.svg);
+    background-image: url(../images/icon/icon-check.svg);
     background-size: contain;
     background-origin: border-box;
   }
