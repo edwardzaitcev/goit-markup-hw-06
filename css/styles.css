@@ -793,6 +793,33 @@ margin-bottom: 30px;
     margin-left: 8px;
   }
 
+  .checkbox {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    position: absolute;
+  }
+  .checkbox:checked + .icon-checkbox {
+    border-color: #2196F3;
+    background-color: #2196F3;
+    background-image: url(../images/icon/icon.svg);
+    background-size: contain;
+    background-origin: border-box;
+  }
+
+  .icon-checkbox {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border: 2px solid #212121;
+      border-top-color: rgb(33, 33, 33);
+      border-right-color: rgb(33, 33, 33);
+      border-bottom-color: rgb(33, 33, 33);
+      border-left-color: rgb(33, 33, 33);
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+
 
 .modal-input-icon{
   width: 100%;
